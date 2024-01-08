@@ -1,0 +1,36 @@
+{
+  "name": "react-gas",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && clasp push && clasp deploy --deploymentId AKfycbx7sErIr_7liVEsi-4SAVF8StLpauGDsyDw7lQFlcL89ZcAQsiDeBxV0CoATGd4d8ht",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@coreui/coreui": "^4.2.6",
+    "@coreui/react": "^4.6.0",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.8",
+    "bootstrap": "^5.2.3",
+    "gas-client": "^1.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.4.1",
+    "vite-plugin-singlefile": "^0.13.3"
+  },
+  "devDependencies": {
+    "@types/google-apps-script": "^1.0.57",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@vitejs/plugin-react": "^3.1.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  },
+  "volta": {
+    "node": "18.14.0"
+  }
+}
